@@ -1,0 +1,25 @@
+.navbar {
+  background-color: #555; /* nền xám đậm */
+  padding: 15px;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.navbar li.home {
+  background-color: #4CAF50; /* xanh lá */
+}
+
+.navbar li.login {
+  background-color: black;
+}
